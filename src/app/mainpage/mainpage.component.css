@@ -1,0 +1,48 @@
+.caption {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+
+.videodiv {
+  position: relative;
+  opacity: 0.5;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.parallax {
+    /* The image used */
+    background-image: url("doomg.jpg");
+  
+    /* Set a specific height */
+    min-height: 600px; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+  }
+
+  .row{
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  .site-footer{
+    background-color: black;
+    padding: 13px;
+  }
+  
+  #footer-content {
+    color: white;
+    height: 30px;
+  }
+  
